@@ -5,4 +5,4 @@ def login(username, password):
     if username == "admin" and password == "12345":
         return f"Добро пожаловать, {username}!"
     else:
-        return "Ошибка: неверные учетные данные"
+        return "Ошибка: неверный логин или пароль"
